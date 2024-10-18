@@ -756,3 +756,250 @@ criaCartao(
 }
 
 /* código omitido */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard</title>
+    <main>
+
+    </main>
+    <footer>
+        <p>Projeto desenvolvido pela Alura, sem fins lucrativos.</p>
+    </footer>
+    <main>
+    <section id= “container”> 
+
+</section>
+<article class="cartao">
+                <div class="cartao__conteudo">
+
+                </div>
+            </article>
+            <h3> Programação </h3>
+            <div class="cartao__conteudo__pergunta">
+            O que é Java Script?
+            </div>
+            <div class="cartao__conteudo__resposta">
+            O Java Script é uma linguagem de programação.
+            </div>
+
+            <article class="cartao">
+            <div class="cartao__conteudo">
+                    <h3> Programação </h3>
+                          <div class="cartao__conteudo__pergunta">
+                                O que é CSS?
+                            </div>                        
+                           <div class="cartao__conteudo__resposta">
+                                O CSS é uma linguagem de estilização.
+                             </div>
+                            </div>
+                                
+             </article>
+             cartao.innerHTML = `
+             <div class="cartao__conteudo">
+             <h3>Programação</h3>
+             <div class="cartao__conteudo__pergunta">
+                     <p>O que é JavaScript?</p>
+             </div>
+             <div class="cartao__conteudo__resposta">
+                     <p>O JavaScript é uma linguagem de programação</p>
+             </div>
+             </div>
+             `
+             cartao.innerHTML = `
+             <div class="cartao__conteudo">
+             <h3>Programação</h3>
+             <div class="cartao__conteudo__pergunta">
+                     <p>O que é JavaScript?</p>
+             </div>
+             <div class="cartao__conteudo__resposta">
+                     <p>O JavaScript é uma linguagem de programação</p>
+             </div>
+             </div>
+             `
+                                  <!-- <article class="cartao">
+                <div class="cartao__conteudo">
+                        <h3>Programação</h3>
+                        <div class="cartao__conteudo__pergunta">
+                                <p>O que é JavaScript?</p>
+                        </div>
+                        <div class="cartao__conteudo__resposta">
+                                <p>O JavaScript é uma linguagem de programação</p>
+                        </div>
+                </div>
+        </article> -->
+        cartao.innerHTML = `
+        <div class="cartao__conteudo">
+        <h3>${categoria}</h3>
+        <div class="cartao__conteudo__pergunta">
+                <p>${pergunta}</p>
+        </div>
+        <div class="cartao__conteudo__resposta">
+                <p>${resposta}</p>
+        </div>
+        </div>
+`
+criaCartao(
+    'Lingua inglesa',
+    'Como se diz OI em inglês?',
+    'Oi em ingles é HI (RAI)'
+) <link rel="stylesheet" href="assets/style.css"><!-- código omitido -->
+
+<main>
+    <section id="container">
+
+<!-- código omitido --><!-- código omitido -->
+
+<main>
+    <section id="container">
+        <article class="cartao">
+
+<!-- código omitido --><!-- código omitido -->
+
+<h3>Programação</h3>
+<div class="cartao_conteudo_pergunta">
+    O que é JavaScript?
+</div>
+<div class="cartao_conteudo_resposta">
+    O JavaScript é uma linguagem de programação
+</div>
+
+<!-- código omitido --><!-- código omitido -->
+
+<h3>Programação</h3>
+<div class="cartao_conteudo_pergunta">
+    <p>O que é JavaScript?</p>
+</div>
+<div class="cartao_conteudo_resposta">
+    <p>O JavaScript é uma linguagem de programação</p>
+</div>
+
+<!-- código omitido -->
+
+<h3>Programação</h3>
+<div class="cartao_conteudo_pergunta"> 
+    <p>O que é CSS?</p>
+</div>
+<div class="cartao_conteudo_resposta"> 
+    <p>O CSS é uma linguagem de estilização</p>
+</div>
+
+<!-- código omitido --><!-- código omitido -->
+
+<article class="cartao">
+    <div class="cartao__conteudo">
+        <h3>Programação</h3>
+        <div class="cartao_conteudo_pergunta"> 
+            <p>O que é CSS?</p>
+        </div>
+        <div class="cartao_conteudo_resposta">
+        <p>0 CSS é uma linguagem de estilização</p>
+    </div>
+</div>
+</article>
+
+<!-- código omitido -->/* código omitido */
+
+.cartao__conteudo {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+/* código omitido *//* código omitido */
+
+.cartao__conteudo {
+    text-align: center;
+    background-color: aquamarine;
+    height: 100%;
+}
+
+/* código omitido *//* código omitido */
+
+.cartao {
+    /*margin: 1rem 1rem;*/
+    background-color: aqua;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+
+.cartao__conteudo {
+    text-align: center;
+    background-color: aquamarine;
+    height: 100%;
+}
+
+/* código omitido *//* código omitido */
+
+.cartao {
+    margin: 1rem 1rem;
+    background-color: aqua;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+
+.cartao__conteudo {
+    text-align: center;
+    /*background-color: aquamarine;*/
+    height: 100%;
+}
+
+/* código omitido */<!-- código omitido -->
+
+<article class="cartao">
+        <div class="cartao__conteudo">
+            <h3>Programação</h3>
+            <div class="cartao_conteudo_pergunta"> 
+                <p>O que é JavaScript?</p>
+
+<!-- código omitido --><body>
+  <header class="container text-center">
+    <!-- Código omitido -->
+  </header>
+</body><img src="..." class="rounded-circle" alt="..." /><body>
+    <!-- Código omitido -->
+    <img
+      src="img/avatar-perfil.png"
+      alt="avatar da Fernanda"
+      class="rounded-circle"
+      srcset=""
+    />
+    <!-- Código omitido -->
+  </body><body>
+    <!-- Código omitido -->
+    <img
+      src="img/avatar-perfil.png"
+      alt="avatar da Fernanda"
+      class="rounded-circle"
+      width="150"
+      height="150"
+      srcset=""
+    />
+    <!-- Código omitido -->
+  </body><body>
+    <!-- Código omitido -->
+    <p class="lead">Eu sou Fernanda_</p>
+    <!-- Código omitido -->
+  </body><body>
+    <!-- Código omitido -->
+    <div>
+      <p class="badge bg-secondary">HTML</p>
+      <p class="badge bg-secondary">CSS</p>
+      <p class="badge bg-secondary">JavaScript</p>
+      <p class="badge bg-secondary">Scratch</p>
+    </div>
+    <!-- Código omitido -->
+  </body>
